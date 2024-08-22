@@ -5,12 +5,12 @@ source=("https://github.com/DadSchoorse/vkBasalt/releases/download/v${pkgver}/vk
 url="https://github.com/DadSchoorse/vkBasalt"
 makedepends=(
   "gcc" "g++"
-  "meson"                # High-productivity build system
-  "pkg-config"           # Manage compile and link flags for libraries
-  "glslang-tools"        # OpenGL and OpenGL ES shader front end and validator -- tools
-  "libx11-dev"           # X11 client-side library (development headers)
-  "libvulkan-dev"        # Vulkan loader library -- development files
-  "spirv-headers"        # Machine-readable files for the SPIR-V Registry
+  "meson"
+  "pkg-config"
+  "glslang-tools"
+  "libx11-dev"
+  "libvulkan-dev"
+  "spirv-headers"
 )
 pkgdesc="vkBasalt is a Vulkan post processing layer to enhance the visual graphics of games."
 optdepends=("reshade-shaders: Required for advanced post-processing effects")
